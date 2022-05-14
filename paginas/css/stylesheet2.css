@@ -1,0 +1,115 @@
+.titulo{
+    color: rgb(249, 141, 159);
+    flex-wrap: wrap;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+
+    
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    -ms-flex-direction: column;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-size: 18px;
+}
+.productos {
+    margin: 8px;
+    color: red; 
+    padding: 0%;
+}
+
+#producto{
+    color: rgb(249, 141, 159);
+}
+
+.menu {
+    margin: 8px;
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    margin: 8px;
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.img-header{
+    height: 150px;
+    width: 150px;
+}
+
+.formulario {
+    margin: 8px;
+}
+
+.form-title {
+    margin-bottom: 12px;
+}
+
+.form {
+    margin-bottom: 8px;
+}
+
+.text {
+    margin: 8px;
+    text-align: start;
+    color: pink;
+}
+
+/*hola*/
+
+
+/* menu */
+.background{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.menu__title{
+    color: rgb(124, 80, 194);
+    text-shadow: 1px 1px 1px #fff;
+    text-align: center;
+}
+
+#menu2{
+    background-color: rgb(85, 131, 231);
+}
+
+.tituloSecundario{
+    text-align: center;
+    padding: 20px;
+    color: tomato;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#footer{
+    background-color: rgb(124, 80, 194);
+    height: 100px;
+}
+
+.footer__title{
+    color: cornsilk;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    padding-top: 10px;
+}
+
+.footer__text{
+    color: aliceblue;
+    text-align: center;
+}
